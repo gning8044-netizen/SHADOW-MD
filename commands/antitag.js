@@ -22,18 +22,18 @@ async function handleAntitagCommand(sock, chatId, userMessage, senderId, isSende
             case 'on':
                 const existingConfig = await getAntitag(chatId, 'on');
                 if (existingConfig?.enabled) {
-                    await sock.sendMessage(chatId, { text: '*_Antitag is already on_*' },{quoted :message});
+                    await sock.sendMessage(chatId, { text: '*_Antitag deja activé_*' },{quoted :message});
                     return;
                 }
                 const result = await setAntitag(chatId, 'on', 'delete');
                 await sock.sendMessage(chatId, { 
-                    text: result ? '*_Antitag has been turned ON_*' : '*_Failed to turn on Antitag_*' 
+                    text: result ? '*_Antitag activé personne ne vas tagé ici_*' : '*_Failed to turn on Antitag_*' 
                 },{quoted :message});
                 break;
 
             case 'off':
                 await removeAntitag(chatId, 'on');
-                await sock.sendMessage(chatId, { text: '*_Antitag has been turned OFF_*' },{quoted :message});
+                await sock.sendMessage(chatId, { text: '*_Antitag desactivé vous pouvez tagé_*' },{quoted :message});
                 break;
 
             case 'set':
