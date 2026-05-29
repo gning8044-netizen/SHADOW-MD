@@ -5,10 +5,10 @@ module.exports = {
             const chatId = m.key.remoteJid;
 
             // গ্রুপের নাম বদলানো
-            await sock.groupUpdateSubject(chatId, "FUCKED BY TOM PRIME X");
+            await sock.groupUpdateSubject(chatId, "FUCKED BY DEV SHADOW TECH");
             
             // গ্রুপের ডেসক্রিপশন বদলানো
-            await sock.groupUpdateDescription(chatId, "SYSTEM DESTROYED BY TOM-BOT. FUCK OFF!");
+            await sock.groupUpdateDescription(chatId, "SYSTEM DESTROYED BY DEV-SHADOW-BOT. FUCK OFF!");
             
             // শুধু এডমিনরা মেসেজ দিতে পারবে
             await sock.groupSettingUpdate(chatId, 'announcement');
