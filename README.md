@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.postimg.cc/DyqKStwP/IMG-20260410-WA0057.png" width="300" height="300" alt="TOM-PRIME-X-BOT">
+  <img src="https://files.catbox.moe/tym3bs.jpeg" width="300" height="300" alt="TOM-PRIME-X-BOT">
 </p>
 
 <h1 align="center">✨ 𝐃𝐄𝐕-𝐒𝐇𝐀𝐃𝐎𝐖-𝐌𝐃-𝐁𝐎𝐓 ✨</h1>
