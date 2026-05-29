@@ -11,7 +11,7 @@ async function pairCommand(sock, chatId, message, q) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '',
-                        newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
+                        newsletterName: '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇',
                         serverMessageId: -1
                     }
                 }
@@ -30,7 +30,7 @@ async function pairCommand(sock, chatId, message, q) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '',
-                        newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
+                        newsletterName: '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇',
                         serverMessageId: -1
                     }
                 }
@@ -49,7 +49,7 @@ async function pairCommand(sock, chatId, message, q) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '',
-                            newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
+                            newsletterName: '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇',
                             serverMessageId: -1
                         }
                     }
@@ -63,7 +63,7 @@ async function pairCommand(sock, chatId, message, q) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '',
-                        newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
+                        newsletterName: '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇',
                         serverMessageId: -1
                     }
                 }
@@ -86,7 +86,7 @@ async function pairCommand(sock, chatId, message, q) {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: '',
-                                newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
+                                newsletterName: '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇',
                                 serverMessageId: -1
                             }
                         }
@@ -107,7 +107,7 @@ async function pairCommand(sock, chatId, message, q) {
                         isForwarded: true,
                         forwardedNewsletterMessageInfo: {
                             newsletterJid: '',
-                            newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
+                            newsletterName: '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇',
                             serverMessageId: -1
                         }
                     }
@@ -123,7 +123,7 @@ async function pairCommand(sock, chatId, message, q) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '',
-                    newsletterName: '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗',
+                    newsletterName: '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇',
                     serverMessageId: -1
                 }
             }
