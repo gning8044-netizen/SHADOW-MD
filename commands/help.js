@@ -7,10 +7,10 @@ async function helpCommand(sock, chatId, message) {
     const date = new Date().toLocaleDateString('en-GB', { timeZone: 'Asia/Dhaka' });
     const pushname = message.pushName || 'User';
 
-    const helpMessage = `🗿 *𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐌𝐄𝐍𝐔* 🗿
+    const helpMessage = `🗿 *ᴄᴏᴍᴍᴀɴᴅᴇ ᴍᴇɴᴜ* ⚰️
 ┠───────────────
-┃ 🗿 *Bot:* ${settings.botName || '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐌𝐃 𝐁𝐎𝐓'}
-┃ 👑 Owner: *${settings.botOwner || '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖221🇸🇳'}*
+┃ 🗿 *ʙᴏᴛ:* ${settings.botName || '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐌𝐃 𝐁𝐎𝐓'}
+┃ 👑 ᴏᴡɴᴇʀ: *${settings.botOwner || '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖221🇸🇳'}*
 ┃ 🌍 Prefix: *${settings.prefix || '.'}*
 ┃ 🧩 Version: ${settings.version || '1.1.5'}
 ┃ 🕒 Time: ${time}
@@ -234,11 +234,11 @@ async function helpCommand(sock, chatId, message) {
    ┕━━━━━━━━━━━━━━━━━━━━┙
 
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      *Powered by 𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇221🇸🇳*
+      *ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇221🇸🇳*
      _𝐁𝐎𝐑𝐎𝐌𝐄 𝐌𝐁𝐎𝐔𝐑 • 𝐒𝐇𝐀𝐃𝐎𝐖 2026_`;
 
     try {
-        const myPic = 'https://files.catbox.moe/98lxja.jpeg';
+        const myPic = 'https://files.catbox.moe/9evtz2.jpeg';
         await sock.sendMessage(chatId, { 
             image: { url: myPic }, 
             caption: helpMessage,
