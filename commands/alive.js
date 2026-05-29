@@ -2,18 +2,18 @@ const settings = require("../settings");
 
 async function aliveCommand(sock, chatId, message) {
     try {
-        const message1 = `✨ *TOM PRIME X IS ALIVE!* ✨\n\n` +
+        const message1 = `✨ *DEV SHADOW MD EST EN LIGNE!* ✨\n\n` +
                        `💎 *Version:* ${settings.version || '1.1.5'}\n` +
-                       `👑 *Owner:* TOM-PRIME-X\n` +
+                       `👑 *Owner:* DEV-SHADOW-TECH\n` +
                        `🌍 *Status:* Online & Ready\n` +
-                       `📂 *GitHub:* https://github.com/TOM-PRIME-X/TOM-PRIME-X-BOT\n\n` +
+                       `📂 *GitHub:* https://github.com/DEV SHADOW TECH221/DEV-SHADOW\n\n` +
                        `🌟 *Features:*\n` +
                        `• Group Management\n` +
                        `• AI & Chat (GPT/Gemini)\n` +
                        `• Media Downloader\n` +
                        `• Fun & Games\n\n` +
                        `Type *.menu* for full command list\n\n` +
-                       `🚀 *Powered by TOM PRIME X*`;
+                       `🚀 *Powered by DEV SHADOW TECH*`;
 
         await sock.sendMessage(chatId, {
             text: message1,
@@ -21,9 +21,9 @@ async function aliveCommand(sock, chatId, message) {
                 forwardingScore: 1,
                 isForwarded: true,
                 externalAdReply: {
-                    title: 'TOM-PRIME-X OFFICIAL',
+                    title: 'DEV-SHADOW-TECH OFFICIAL',
                     body: 'Subscribe to my YouTube Channel',
-                    thumbnailUrl: 'https://github.com/TOM-PRIME-X.png',
+                    thumbnailUrl: 'https://github.com/DEV-SHADOW.png',
                     sourceUrl: 'https://youtube.com/@saycotom?si=7QiSIta2cfsdCbtW',
                     mediaType: 1,
                     renderLargerThumbnail: true
