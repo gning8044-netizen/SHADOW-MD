@@ -8,15 +8,15 @@ async function infoCommand(sock, chatId, message) {
         const infoMessage = `
 --------------------------------------------
 ➥ 𝐇𝐞𝐲 𝐌𝐫/𝐦𝐢𝐬𝐬 
-╭────《  𝐌𝐘 𝐒𝐄𝐋𝐅 》────⊷
+╭────《  𝐌𝐀 𝐕𝐈𝐄😔 》────⊷
 │ ╭────────✧❁✧────────◆
-│ │ 🌸 𝐍𝐀𝐌𝐄 :- 𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄-𝐗
-│ │ 🏡 𝐅𝐑𝐎𝐌 :- 𝐃𝐇𝐀𝐊𝐀 
-│ │ 📘 𝐂𝐋𝐀SS𝐒 :- 𝐇𝐈𝐃𝐄 
-│ │ 💖 𝐑𝐋𝐒 :- 𝐒𝐈𝐍𝐆𝐋𝐄 𝐔𝐋𝐓𝐀 𝐏𝐑𝐎 𝐌𝐀𝐗
-│ │ 🎯 𝐇𝐎𝐁𝐁𝐘 :- 𝐑𝐈𝐃𝐄 
-│ │ ☎️ 𝐍𝐔𝐌𝐁𝐄𝐑 :- 8801892625209
-│ │ ..𝐘𝐎𝐔 𝐂𝐀𝐍 𝐒𝐄𝐄 𝐌𝐘 𝐒𝐓𝐀𝐓𝐔𝐒..
+│ │ 🌸 𝐍𝐀𝐌𝐄 :- 𝐃𝐄𝐕-𝐒𝐇𝐀𝐃𝐎𝐖-𝐓𝐄𝐂𝐇
+│ │ 🏡 𝐅𝐑𝐎𝐌 :- 𝐒𝐄𝐍𝐄𝐆𝐀𝐋🇸🇳 
+│ │ 📘 𝐂𝐋𝐀SS𝐒 :- 𝐒𝐄𝐂𝐎𝐍𝐃𝐄 
+│ │ 💖 𝐑𝐋𝐒 :- 𝐉𝐄 𝐒𝐔𝐈𝐒 𝐏𝐀𝐒 𝐄𝐍 𝐂𝐎𝐔𝐏𝐋𝐄
+│ │ 🎯 𝐇𝐎𝐁𝐁𝐘 :- 𝐂𝐄𝐋𝐈𝐁𝐀𝐓𝐀𝐈𝐑𝐄 
+│ │ ☎️ 𝐍𝐔𝐌𝐁𝐄𝐑 :- 221767833987
+│ │ ..𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐁𝐎𝐑𝐎𝐌𝐄 𝐌𝐁𝐎𝐔𝐑..
 │ ╰────────✧❁✧────────◆
 ╰══════════════════⊷
 --------------------------------------------
@@ -29,9 +29,9 @@ async function infoCommand(sock, chatId, message) {
 • Total Memory   : ${(os.totalmem() / (1024 ** 3)).toFixed(2)} GB
 • Free Memory    : ${(os.freemem() / (1024 ** 3)).toFixed(2)} GB
 
-   *Powered by TOM PRIME X*`;
+   *Powered by DEV SHADOW TECH*`;
 
-        const imageUrl = "https://i.postimg.cc/pVF8rw2m/IMG-20260329-WA0128.jpg";
+        const imageUrl = "https://files.catbox.moe/2531iu.jpeg";
 
         await sock.sendMessage(chatId, { 
             image: { url: imageUrl }, 
