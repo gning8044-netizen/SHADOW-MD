@@ -45,8 +45,8 @@ async function handleJoinEvent(sock, id, participants) {
                                `👥 𝐓𝐨𝐭𝐚𝐥 𝐌𝐞𝐦𝐛𝐞𝐫𝐬: ${groupMetadata.participants.length}\n` +
                                `📢 𝐑𝐮𝐥𝐞𝐬: 𝐁𝐞 𝐫𝐞𝐬𝐩𝐞𝐜𝐭𝐟𝐮𝐥, 𝐬𝐭𝐚𝐲 \n` +
                                `𝐚𝐜𝐭𝐢𝐯𝐞 & 𝐞𝐧𝐣𝐨𝐲\n\n` +
-                               `       ╰┈➤ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 ʙʏ 𝐓𝐎𝐌\n` +
-                               `             𝐏𝐑𝐈𝐌𝐄 𝐗`;
+                               `       ╰┈➤ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 ʙʏ 𝐃𝐄𝐕\n` +
+                               `             𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇`;
             
             let profilePicUrl;
             try {
