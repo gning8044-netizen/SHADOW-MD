@@ -7,18 +7,18 @@ async function helpCommand(sock, chatId, message) {
     const date = new Date().toLocaleDateString('en-GB', { timeZone: 'Asia/Dhaka' });
     const pushname = message.pushName || 'User';
 
-    const helpMessage = `✨ *COMMAND MENU* ✨
+    const helpMessage = `🗿 *𝐂𝐎𝐌𝐌𝐀𝐍𝐃 𝐌𝐄𝐍𝐔* 🗿
 ┠───────────────
-┃ 💎 *Bot:* ${settings.botName || '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗 𝐁𝐎𝐓'}
-┃ 👑 Owner: *${settings.botOwner || '𝐓𝐎𝐌 𝐏𝐑𝐈𝐌𝐄 𝐗'}*
+┃ 🗿 *Bot:* ${settings.botName || '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐌𝐃 𝐁𝐎𝐓'}
+┃ 👑 Owner: *${settings.botOwner || '𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖221🇸🇳'}*
 ┃ 🌍 Prefix: *${settings.prefix || '.'}*
 ┃ 🧩 Version: ${settings.version || '1.1.5'}
 ┃ 🕒 Time: ${time}
 ┃ 📅 Date: ${date}
 ┃ 🌐 Timezone: Asia/Dhaka
-┃ 📜 Total Commands:165+
+┃ 📜 𝐓𝐨𝐭𝐚𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬:165+
 ┠───────────────
-   ● ADMIN TERMINAL
+   ★ 𝐒𝐇𝐀𝐃𝐎𝐖 𝐀𝐃𝐌𝐈𝐍
    ┝ .ban
    ┝ .kick
    ┝ .kickall
@@ -52,7 +52,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .antiviewonce
    ┝ .antiforeign
 
-   ● NEURAL AI HUB
+   ⁂ 𝐒𝐇𝐀𝐃𝐎𝐖 𝐀𝐈 𝐇𝐔𝐁
    ┝ .bot
    ┝ .gpt
    ┝ .gemini
@@ -71,7 +71,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .aiphoto
    ┝ .deepseek
 
-   ● PREMIUM DOWNLOADER
+   ● 𝐒𝐇𝐀𝐃𝐎𝐖 𝐃𝐎𝐖𝐋𝐎𝐀𝐃..
    ┝ .play
    ┝ .song
    ┝ .video
@@ -93,7 +93,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .apkdl
    ┝ .mediafiredl
 
-   ● DESIGN & STICKER
+   ❃ 𝐒𝐇𝐀𝐃𝐎𝐖 & 𝐒𝐓𝐈𝐂𝐊𝐄𝐑
    ┝ .sticker
    ┝ .simage
    ┝ .blur
@@ -111,7 +111,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .ttp
    ┝ .wasticker
 
-   ● FUN & GAMES
+   ✿ 𝐒𝐇𝐀𝐃𝐎𝐖 & 𝐆𝐀𝐌𝐄𝐒
    ┝ .tictactoe
    ┝ .hangman
    ┝ .trivia
@@ -133,7 +133,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .casino
    ┝ .dice
 
-   ● TEXTMAKER MAGIC
+   ❂ 𝐒𝐇𝐀𝐃𝐎𝐖 𝐌𝐀𝐆𝐈𝐂
    ┝ .neon
    ┝ .glitch
    ┝ .matrix
@@ -155,7 +155,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .graffiti
    ┝ .holographic
 
-   ● ANIME WORLD
+   ✴︎ 𝐒𝐇𝐀𝐃𝐎𝐖 𝐖𝐎𝐑𝐋𝐃
    ┝ .waifu
    ┝ .neko
    ┝ .shinobu
@@ -174,7 +174,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .bite
    ┝ .glowing
 
-   ● ROOT SYSTEM
+   ● 𝐒𝐇𝐀𝐃𝐎𝐖 𝐒𝐘𝐒𝐓𝐄𝐌𝐄
    ┝ .mode
    ┝ .update
    ┝ .settings
@@ -192,7 +192,7 @@ async function helpCommand(sock, chatId, message) {
    ┝ .join
    ┝ .out
 
-   ● SYSTEM DATA
+   ✰ 𝐒𝐇𝐀𝐃𝐎𝐖 𝐃𝐀𝐓𝐀
    ┝ .info
    ┝ .repo
    ┝ .sc
@@ -234,8 +234,8 @@ async function helpCommand(sock, chatId, message) {
    ┕━━━━━━━━━━━━━━━━━━━━┙
 
    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      *Powered by TOM PRIME X*
-     _Luxury Redefined • Dhaka 2026_`;
+      *Powered by 𝐃𝐄𝐕 𝐒𝐇𝐀𝐃𝐎𝐖 𝐓𝐄𝐂𝐇221🇸🇳*
+     _𝐁𝐎𝐑𝐎𝐌𝐄 𝐌𝐁𝐎𝐔𝐑 • 𝐒𝐇𝐀𝐃𝐎𝐖 2026_`;
 
     try {
         const myPic = 'https://i.postimg.cc/DyqKStwP/IMG-20260410-WA0057.png';
