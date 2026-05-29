@@ -238,7 +238,7 @@ async function helpCommand(sock, chatId, message) {
      _𝐁𝐎𝐑𝐎𝐌𝐄 𝐌𝐁𝐎𝐔𝐑 • 𝐒𝐇𝐀𝐃𝐎𝐖 2026_`;
 
     try {
-        const myPic = 'https://i.postimg.cc/DyqKStwP/IMG-20260410-WA0057.png';
+        const myPic = 'https://files.catbox.moe/98lxja.jpeg';
         await sock.sendMessage(chatId, { 
             image: { url: myPic }, 
             caption: helpMessage,
